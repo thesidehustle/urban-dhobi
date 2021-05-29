@@ -1,0 +1,7 @@
+{
+  "name": "urban-dhobi",
+  "author": "Fardeen Panjwani",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["./client", "./server", "./documentation"]
+}
