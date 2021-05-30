@@ -5,6 +5,7 @@
   "private": true,
   "workspaces": ["./client", "./server", "./documentation"],
   "scripts": {
-    "docs": "yarn workspace @urban-dhobi/documentation"
+    "docs": "yarn workspace @urban-dhobi/documentation",
+    "docs:build": "yarn docs build"
   }
 }
