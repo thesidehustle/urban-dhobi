@@ -3,5 +3,8 @@
   "author": "Fardeen Panjwani",
   "license": "MIT",
   "private": true,
-  "workspaces": ["./client", "./server", "./documentation"]
+  "workspaces": ["./client", "./server", "./documentation"],
+  "scripts": {
+    "docs": "yarn workspace @urban-dhobi/documentation"
+  }
 }
