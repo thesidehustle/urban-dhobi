@@ -4,7 +4,7 @@ on:
   push:
     branches: [master]
     paths:
-      - "documentation/*"
+      - "documentation/**"
       - ".github/workflows/documentation_*"
 
 jobs:
