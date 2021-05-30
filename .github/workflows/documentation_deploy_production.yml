@@ -5,6 +5,7 @@ on:
     branches: [master]
     paths:
       - "documentation/*"
+      - ".github/workflows/documentation_*"
 
 jobs:
   checks:
@@ -24,7 +25,7 @@ jobs:
           else
           npm i
           fi
-          npm run build
+          yarn docs:build
   gh-release:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
@@ -50,4 +51,4 @@ jobs:
           else
           npm i
           fi
-          npm run deploy
+          yarn docs deploy
