@@ -2,8 +2,8 @@
 module.exports = {
   title: "Urban Dhobi",
   tagline: "It's in the name ye dingus",
-  url: "https://github.com/thesidehustle/urban-dhobi.git",
-  baseUrl: "/",
+  url: "https://thesidehustle.github.io",
+  baseUrl: "/urban-dhobi/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
