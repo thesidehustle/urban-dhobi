@@ -14,7 +14,8 @@ module.exports = {
       title: "Urban Dhobi",
       logo: {
         alt: "Logo",
-        src: "img/logo.svg",
+        src: "img/logo-black.svg",
+        srcDark: "img/logo-white.svg",
       },
       items: [
         { to: "/docs/intro", label: "Documentation", position: "left" },
