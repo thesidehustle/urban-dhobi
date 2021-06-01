@@ -62,13 +62,19 @@
       "@semantic-release/npm",
       {
         "path": "@semantic-release/git",
+<<<<<<< Updated upstream
         "assets": [
           "package.json",
           "package-lock.json",
           "CHANGELOG.md"
         ],
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+=======
+        "assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
+        "message": "chore(documentation-release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+>>>>>>> Stashed changes
       }
-    ]
+    ],
+    "tagFormat": "v${version}-docs"
   }
 }
